@@ -13,8 +13,8 @@ npm install unicorne
 ### Usage
 
 ```js
-var unicodeEscape = require('unicorne');
+var unicorne = require('unicorne');
 
-unicodeEscape('pasta');
-// > \u0070\u0061\u0073\u0074\u0061
+unicorne('La proprietà [{0}] della classe [{1}] con valore [{2}] non è un URL valido');
+// > La propriet\\u00e0 [{0}] della classe [{1}] con valore [{2}] non \\u00e8 un URL valido
 ```

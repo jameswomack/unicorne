@@ -1,6 +1,6 @@
 {
   "name": "unicorne",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a unicode string to a string of Javascript escape sequences.",
   "main": "index.js",
   "scripts": {
