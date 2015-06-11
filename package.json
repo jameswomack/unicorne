@@ -1,14 +1,14 @@
 {
-  "name": "unicode-escape",
-  "version": "0.1.0",
+  "name": "unicorne",
+  "version": "1.0.0",
   "description": "Convert a unicode string to a string of Javascript escape sequences.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --harmony --inline-diffs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmeas/unicode-string-to-javascript-escape.js.git"
+    "url": "https://github.com/jameswomack/unicorne.git"
   },
   "keywords": [
     "unicode",
@@ -18,10 +18,9 @@
     "conversion",
     "converter"
   ],
-  "author": "Jmeas",
+  "author": "jameswomack",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jmeas/unicode-string-to-javascript-escape.js/issues"
-  },
-  "homepage": "https://github.com/jmeas/unicode-string-to-javascript-escape.js"
+  "devDependencies": {
+    "mocha": "2.2.5"
+  }
 }

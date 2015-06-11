@@ -1,4 +1,4 @@
-# unicode-escape.js
+# Unicorne
 
 Convert a unicode string to a string of Javascript escape sequences.
 
@@ -7,13 +7,13 @@ Convert a unicode string to a string of Javascript escape sequences.
 Install via `npm`.
 
 ```sh
-npm install unicode-escape
+npm install unicorne
 ```
 
 ### Usage
 
 ```js
-var unicodeEscape = require('unicode-escape');
+var unicodeEscape = require('unicorne');
 
 unicodeEscape('pasta');
 // > \u0070\u0061\u0073\u0074\u0061
